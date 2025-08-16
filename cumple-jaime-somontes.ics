@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//InvitacionJaime//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:jaime-somontes-20250830-1100@example.com
+DTSTAMP:20250815T191600Z
+DTSTART;TZID=Europe/Madrid:20250830T110000
+DTEND;TZID=Europe/Madrid:20250830T210000
+SUMMARY:Cumple de Jaime en piscina Somontes
+LOCATION:Piscina de Verano Somontes (Google Maps: https://maps.app.goo.gl/7cWZ4mVv3agJY8cK9?g_st=ipc)
+DESCRIPTION:¡Te espero el sábado 30 de agosto desde las 11:00 en la piscina Somontes! Info: https://entradas.clubdeportivosomontes.com/piscina-verano-2025
+URL:https://entradas.clubdeportivosomontes.com/piscina-verano-2025
+BEGIN:VALARM
+TRIGGER:-PT60M
+ACTION:DISPLAY
+DESCRIPTION:Recordatorio: Cumple de Jaime en piscina Somontes en 1 hora
+END:VALARM
+END:VEVENT
+END:VCALENDAR
