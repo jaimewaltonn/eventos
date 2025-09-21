@@ -1,21 +1,64 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//InvitacionJaime//ES
+PRODID:-//Recordatorios Tren//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+
 BEGIN:VEVENT
-UID:jaime-somontes-20250830-1100@example.com
-DTSTAMP:20250815T191600Z
-DTSTART;TZID=Europe/Madrid:20250830T110000
-DTEND;TZID=Europe/Madrid:20250830T210000
-SUMMARY:Cumple de Jaime en piscina Somontes
-LOCATION:Piscina de Verano Somontes (Google Maps: https://maps.app.goo.gl/7cWZ4mVv3agJY8cK9?g_st=ipc)
-DESCRIPTION:¡Te espero el sábado 30 de agosto desde las 11:00 en la piscina Somontes! Info: https://entradas.clubdeportivosomontes.com/piscina-verano-2025
-URL:https://entradas.clubdeportivosomontes.com/piscina-verano-2025
+UID:tren-ida-madrid-zaragoza-20251011@calendar
+DTSTART:20251011T092700Z
+DTEND:20251011T115100Z
+SUMMARY:Tren AVE Madrid → Zaragoza
+LOCATION:Madrid-Puerta de Atocha
+DESCRIPTION:DETALLES DEL VIAJE:\n\n• Salida: 11:27 desde Madrid-Puerta de Atocha\n• Llegada: 12:51 a Zaragoza-Delicias\n• Tren: AVE 03113\n• Vagón: 0007\, Asiento: 04A\n• Duración: 1h 24min (Directo)\n\nRECORDATORIOS:\n• Llegar a la estación 30 minutos antes\n• Llevar DNI y billete\n• Verificar andén en pantallas
+STATUS:CONFIRMED
+TRANSP:OPAQUE
 BEGIN:VALARM
-TRIGGER:-PT60M
 ACTION:DISPLAY
-DESCRIPTION:Recordatorio: Cumple de Jaime en piscina Somontes en 1 hora
+DESCRIPTION:Tren AVE Madrid → Zaragoza en 1 hora
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tren AVE Madrid → Zaragoza en 30 minutos
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
+
+BEGIN:VEVENT
+UID:tren-vuelta-zaragoza-madrid-20251013@calendar
+DTSTART:20251013T182900Z
+DTEND:20251013T195700Z
+SUMMARY:Tren iryo Zaragoza → Madrid
+LOCATION:Zaragoza-Delicias
+DESCRIPTION:DETALLES DEL VIAJE:\n\n• Salida: 20:29 desde Zaragoza-Delicias\n• Llegada: 21:57 a Madrid-Puerta de Atocha\n• Tren: iryo 06190\n• Vagón: 6\, Asiento: 18A\n• Duración: 1h 28min (Directo)\n\nRECORDATORIOS:\n• Llegar a la estación 30 minutos antes\n• Llevar DNI y billete\n• Verificar andén en pantallas
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tren iryo Zaragoza → Madrid en 1 hora
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tren iryo Zaragoza → Madrid en 30 minutos
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:preparacion-viaje-20251010@calendar
+DTSTART:20251010T200000Z
+DTEND:20251010T210000Z
+SUMMARY:Preparar viaje a Zaragoza
+DESCRIPTION:RECORDATORIO DE PREPARACIÓN:\n\n• Verificar DNI\n• Imprimir o descargar billetes\n• Preparar equipaje\n• Consultar estado del tren\n• Planificar ruta a la estación
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Preparar viaje a Zaragoza mañana
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+
 END:VCALENDAR
