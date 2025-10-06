@@ -1,21 +1,94 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//ChatGPT ICS Generator//EN
+PRODID:-//Recordatorios Tren Diciembre//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
 
 BEGIN:VEVENT
-SUMMARY:Tren a Zaragoza - Delicias (Ida)
-DESCRIPTION:N.º de reserva: 1134739777970367\nRENFE02861\nVagón 0007 | Asiento 03A\nPasajero: Jaime Walton Jimenez\nClase: Standard (Básico)\nNo reembolsable\nCambios permitidos hasta 3 dic 2025, 18:50
-DTSTART;TZID=Europe/Madrid:20251204T185000
-DTEND;TZID=Europe/Madrid:20251204T203000
-LOCATION:Madrid-Puerta de Atocha → Zaragoza-Delicias
+UID:tren-ida-madrid-zaragoza-20251204@calendar
+DTSTART:20251204T175000Z
+DTEND:20251204T193000Z
+SUMMARY:Tren RENFE Madrid → Zaragoza
+LOCATION:Madrid-Puerta de Atocha
+DESCRIPTION:DETALLES DEL VIAJE:\n\n• Salida: 18:50 desde Madrid-Puerta de Atocha\n• Llegada: 20:30 a Zaragoza-Delicias\n• Tren: RENFE 02861\n• Vagón: 0007, Asiento: 03A\n• Duración: 1h 40min\n• Tarifa: Standard (Básico)\n• Cambios permitidos hasta: 3 dic 2025, 18:50\n\nRECORDATORIOS:\n• Llegar a la estación 30 minutos antes\n• Llevar DNI y billete\n• Verificar andén en pantallas\n• No reembolsable
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tren RENFE Madrid → Zaragoza en 1 hora
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tren RENFE Madrid → Zaragoza en 30 minutos
+TRIGGER:-PT30M
+END:VALARM
 END:VEVENT
 
 BEGIN:VEVENT
-SUMMARY:Tren a Madrid - Puerta de Atocha (Vuelta)
-DESCRIPTION:N.º de reserva: 1134739777970367\nRENFE03192\nVagón 1006 | Asiento 18B\nPasajero: Jaime Walton Jimenez\nClase: Standard (Básico)\nNo reembolsable\nCambios permitidos hasta 8 dic 2025, 20:26
-DTSTART;TZID=Europe/Madrid:20251209T202600
-DTEND;TZID=Europe/Madrid:20251209T215200
-LOCATION:Zaragoza-Delicias → Madrid-Puerta de Atocha
+UID:tren-vuelta-zaragoza-madrid-20251209@calendar
+DTSTART:20251209T192600Z
+DTEND:20251209T205200Z
+SUMMARY:Tren RENFE Zaragoza → Madrid
+LOCATION:Zaragoza-Delicias
+DESCRIPTION:DETALLES DEL VIAJE:\n\n• Salida: 20:26 desde Zaragoza-Delicias\n• Llegada: 21:52 a Madrid-Puerta de Atocha\n• Tren: RENFE 03192\n• Vagón: 1006, Asiento: 18B\n• Duración: 1h 26min\n• Tarifa: Standard (Básico)\n• Cambios permitidos hasta: 8 dic 2025, 20:26\n\nRECORDATORIOS:\n• Llegar a la estación 30 minutos antes\n• Llevar DNI y billete\n• Verificar andén en pantallas\n• No reembolsable
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tren RENFE Zaragoza → Madrid en 1 hora
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tren RENFE Zaragoza → Madrid en 30 minutos
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:preparacion-viaje-diciembre-20251203@calendar
+DTSTART:20251203T200000Z
+DTEND:20251203T210000Z
+SUMMARY:Preparar viaje a Zaragoza (Diciembre)
+DESCRIPTION:RECORDATORIO DE PREPARACIÓN:\n\n• Verificar DNI\n• Imprimir o descargar billetes\n• Preparar equipaje\n• Consultar estado del tren\n• Planificar ruta a la estación\n• Recordar: cambios permitidos hasta mañana 18:50
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Preparar viaje a Zaragoza mañana
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:recordatorio-cambios-ida-20251203@calendar
+DTSTART:20251203T175000Z
+DTEND:20251203T175000Z
+SUMMARY:⚠️ Último momento para cambios - Tren IDA
+DESCRIPTION:AVISO IMPORTANTE:\n\nEste es el último momento para realizar cambios en tu billete de IDA del jueves 4 diciembre.\n\nDespués de las 18:50 de hoy no se admiten cambios.\n\n• Tren: RENFE 02861\n• Salida mañana: 18:50\n• Vagón 0007, Asiento 03A
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚠️ Último momento para cambios - Tren IDA
+TRIGGER:PT0S
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+UID:recordatorio-cambios-vuelta-20251208@calendar
+DTSTART:20251208T192600Z
+DTEND:20251208T192600Z
+SUMMARY:⚠️ Último momento para cambios - Tren VUELTA
+DESCRIPTION:AVISO IMPORTANTE:\n\nEste es el último momento para realizar cambios en tu billete de VUELTA del martes 9 diciembre.\n\nDespués de las 20:26 de hoy no se admiten cambios.\n\n• Tren: RENFE 03192\n• Salida mañana: 20:26\n• Vagón 1006, Asiento 18B
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:⚠️ Último momento para cambios - Tren VUELTA
+TRIGGER:PT0S
+END:VALARM
 END:VEVENT
 
 END:VCALENDAR
