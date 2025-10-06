@@ -1,94 +1,21 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Recordatorios Tren Noviembre//ES
-CALSCALE:GREGORIAN
-METHOD:PUBLISH
+PRODID:-//ChatGPT ICS Generator//EN
 
 BEGIN:VEVENT
-UID:tren-ida-madrid-zaragoza-20251112@calendar
-DTSTART:20251112T192700Z
-DTEND:20251112T205700Z
-SUMMARY:Tren RENFE Madrid → Zaragoza
-LOCATION:Madrid-Puerta de Atocha
-DESCRIPTION:DETALLES DEL VIAJE:\n\n• Salida: 20:27 desde Madrid-Puerta de Atocha\n• Llegada: 21:57 a Zaragoza-Delicias\n• Tren: RENFE 03203\n• Vagón: 0005\, Asiento: 14C\n• Duración: 1h 30min\n• Tarifa: Standard (Básico)\n• Cambios permitidos hasta: 11 nov 2025\, 20:27\n\nRECORDATORIOS:\n• Llegar a la estación 30 minutos antes\n• Llevar DNI y billete\n• Verificar andén en pantallas\n• No reembolsable
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Tren RENFE Madrid → Zaragoza en 1 hora
-TRIGGER:-PT1H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Tren RENFE Madrid → Zaragoza en 30 minutos
-TRIGGER:-PT30M
-END:VALARM
+SUMMARY:Tren a Zaragoza - Delicias (Ida)
+DESCRIPTION:N.º de reserva: 1134739777970367\nRENFE02861\nVagón 0007 | Asiento 03A\nPasajero: Jaime Walton Jimenez\nClase: Standard (Básico)\nNo reembolsable\nCambios permitidos hasta 3 dic 2025, 18:50
+DTSTART;TZID=Europe/Madrid:20251204T185000
+DTEND;TZID=Europe/Madrid:20251204T203000
+LOCATION:Madrid-Puerta de Atocha → Zaragoza-Delicias
 END:VEVENT
 
 BEGIN:VEVENT
-UID:tren-vuelta-zaragoza-madrid-20251117@calendar
-DTSTART:20251117T192600Z
-DTEND:20251117T205200Z
-SUMMARY:Tren RENFE Zaragoza → Madrid
-LOCATION:Zaragoza-Delicias
-DESCRIPTION:DETALLES DEL VIAJE:\n\n• Salida: 20:26 desde Zaragoza-Delicias\n• Llegada: 21:52 a Madrid-Puerta de Atocha\n• Tren: RENFE 03192\n• Vagón: 1007\, Asiento: 02D\n• Duración: 1h 26min\n• Tarifa: Standard (Básico)\n• Cambios permitidos hasta: 16 nov 2025\, 20:26\n\nRECORDATORIOS:\n• Llegar a la estación 30 minutos antes\n• Llevar DNI y billete\n• Verificar andén en pantallas\n• No reembolsable
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Tren RENFE Zaragoza → Madrid en 1 hora
-TRIGGER:-PT1H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Tren RENFE Zaragoza → Madrid en 30 minutos
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-
-BEGIN:VEVENT
-UID:preparacion-viaje-noviembre-20251111@calendar
-DTSTART:20251111T200000Z
-DTEND:20251111T210000Z
-SUMMARY:Preparar viaje a Zaragoza (Noviembre)
-DESCRIPTION:RECORDATORIO DE PREPARACIÓN:\n\n• Verificar DNI\n• Imprimir o descargar billetes\n• Preparar equipaje\n• Consultar estado del tren\n• Planificar ruta a la estación\n• Recordar: cambios permitidos hasta mañana 20:27
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Preparar viaje a Zaragoza mañana
-TRIGGER:PT0S
-END:VALARM
-END:VEVENT
-
-BEGIN:VEVENT
-UID:recordatorio-cambios-ida-20251111@calendar
-DTSTART:20251111T192700Z
-DTEND:20251111T192700Z
-SUMMARY:⚠️ Último momento para cambios - Tren IDA
-DESCRIPTION:AVISO IMPORTANTE:\n\nEste es el último momento para realizar cambios en tu billete de IDA del miércoles 12 noviembre.\n\nDespués de las 20:27 de hoy no se admiten cambios.\n\n• Tren: RENFE 03203\n• Salida mañana: 20:27\n• Vagón 0005\, Asiento 14C
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:⚠️ Último momento para cambios - Tren IDA
-TRIGGER:PT0S
-END:VALARM
-END:VEVENT
-
-BEGIN:VEVENT
-UID:recordatorio-cambios-vuelta-20251116@calendar
-DTSTART:20251116T192600Z
-DTEND:20251116T192600Z
-SUMMARY:⚠️ Último momento para cambios - Tren VUELTA
-DESCRIPTION:AVISO IMPORTANTE:\n\nEste es el último momento para realizar cambios en tu billete de VUELTA del lunes 17 noviembre.\n\nDespués de las 20:26 de hoy no se admiten cambios.\n\n• Tren: RENFE 03192\n• Salida mañana: 20:26\n• Vagón 1007\, Asiento 02D
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:⚠️ Último momento para cambios - Tren VUELTA
-TRIGGER:PT0S
-END:VALARM
+SUMMARY:Tren a Madrid - Puerta de Atocha (Vuelta)
+DESCRIPTION:N.º de reserva: 1134739777970367\nRENFE03192\nVagón 1006 | Asiento 18B\nPasajero: Jaime Walton Jimenez\nClase: Standard (Básico)\nNo reembolsable\nCambios permitidos hasta 8 dic 2025, 20:26
+DTSTART;TZID=Europe/Madrid:20251209T202600
+DTEND;TZID=Europe/Madrid:20251209T215200
+LOCATION:Zaragoza-Delicias → Madrid-Puerta de Atocha
 END:VEVENT
 
 END:VCALENDAR
