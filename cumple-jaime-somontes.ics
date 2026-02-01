@@ -1,22 +1,27 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Renfe Vuelta//ES
+PRODID:-//Gemini Calendar Generator//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 
 BEGIN:VEVENT
-UID:renfe-ave-03182-vuelta-20260209
-DTSTAMP:20260201T210000Z
-DTSTART;VALUE=DATE-TIME:20260209T184500Z
-DTEND;VALUE=DATE-TIME:20260209T201900Z
-SUMMARY:🚅 VUELTA: Zaragoza → Madrid (AVE 03182)
-LOCATION:Zaragoza-Delicias
-DESCRIPTION:DETALLES DEL VIAJE (VUELTA):\n\n• Salida: 19:45 desde Zaragoza-Delicias\n• Llegada: 21:19 a Madrid-Puerta de Atocha\n• Tren: RENFE AVE 03182\n• Vagón: 0005, Asiento: 08A\n• Duración: 1h 34min\n\nRECORDATORIOS:\n• Tarifa Semi-flexible (Admite cambios)\n• Cancelación gratis 2h antes
+UID:tren-madrid-barcelona-20260417@calendar
+DTSTART:20260417T152700Z
+DTEND:20260417T184600Z
+SUMMARY:Tren RENFE Madrid → Barcelona
+LOCATION:Madrid-Puerta de Atocha
+DESCRIPTION:DETALLES:\n\n• Salida: 17:27 (Hora Local)\n• Llegada: 20:46 (Hora Local)\n• Tren: RENFE AVE 03373\n• Vagón: 1003, Asiento: 08B\n• Duración: 3h 19min\n• Tarifa: Semi-flexible SUPERPRECIO\n\nRECORDATORIOS:\n• Cancelación gratis hasta 2h antes\n• Llevar DNI y billete electrónico\n• Estar en andén 30 min antes
 STATUS:CONFIRMED
+TRANSP:OPAQUE
 BEGIN:VALARM
-TRIGGER:-PT2H
-DESCRIPTION:Recordatorio de vuelta a Madrid
 ACTION:DISPLAY
+DESCRIPTION:Recordatorio 1 hora antes
+TRIGGER:-PT1H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Recordatorio 30 min antes
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 END:VCALENDAR
