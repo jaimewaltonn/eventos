@@ -1,21 +1,21 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Renfe Reubicacion//ES
+PRODID:-//Renfe Vuelta//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 
 BEGIN:VEVENT
-UID:renfe-ave-3309-reubicado-20260205
-DTSTAMP:20260201T204500Z
-DTSTART;VALUE=DATE-TIME:20260205T183400Z
-DTEND;VALUE=DATE-TIME:20260205T200300Z
-SUMMARY:⚠️ CAMBIO: AVE 3309 Madrid → Zaragoza
-LOCATION:Madrid-Puerta de Atocha
-DESCRIPTION:⚠️ REUBICACIÓN POR OBRAS ADIF\n\nEl tren original (AVE 3203) ha sido cancelado.\n---------------------------\nNUEVO HORARIO:\n• Salida: 19:34 (Casi 1h antes)\n• Llegada: 21:03\n• Tren: AVE 3309\n---------------------------\nASIENTO: Pendiente de confirmación por SMS\n\nPARADAS:\nMadrid > Guadalajara > Calatayud > Zaragoza
+UID:renfe-ave-03182-vuelta-20260209
+DTSTAMP:20260201T210000Z
+DTSTART;VALUE=DATE-TIME:20260209T184500Z
+DTEND;VALUE=DATE-TIME:20260209T201900Z
+SUMMARY:🚅 VUELTA: Zaragoza → Madrid (AVE 03182)
+LOCATION:Zaragoza-Delicias
+DESCRIPTION:DETALLES DEL VIAJE (VUELTA):\n\n• Salida: 19:45 desde Zaragoza-Delicias\n• Llegada: 21:19 a Madrid-Puerta de Atocha\n• Tren: RENFE AVE 03182\n• Vagón: 0005, Asiento: 08A\n• Duración: 1h 34min\n\nRECORDATORIOS:\n• Tarifa Semi-flexible (Admite cambios)\n• Cancelación gratis 2h antes
 STATUS:CONFIRMED
 BEGIN:VALARM
 TRIGGER:-PT2H
-DESCRIPTION:⚠️ El tren sale a las 19:34 (Horario modificado)
+DESCRIPTION:Recordatorio de vuelta a Madrid
 ACTION:DISPLAY
 END:VALARM
 END:VEVENT
