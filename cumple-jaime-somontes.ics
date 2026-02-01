@@ -1,43 +1,22 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Recordatorios Tren Febrero//ES
+PRODID:-//Renfe Reubicacion//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 
 BEGIN:VEVENT
-UID:tren-ida-madrid-zaragoza-20260205@calendar
-DTSTART:20260205T192700Z
-DTEND:20260205T205700Z
-SUMMARY:Tren RENFE Madrid → Zaragoza
+UID:renfe-ave-3309-reubicado-20260205
+DTSTAMP:20260201T204500Z
+DTSTART;VALUE=DATE-TIME:20260205T183400Z
+DTEND;VALUE=DATE-TIME:20260205T200300Z
+SUMMARY:⚠️ CAMBIO: AVE 3309 Madrid → Zaragoza
 LOCATION:Madrid-Puerta de Atocha
-DESCRIPTION:DETALLES DEL VIAJE:\n\n• Salida: 20:27 desde Madrid-Puerta de Atocha\n• Llegada: 21:57 a Zaragoza-Delicias\n• Tren: RENFE AVE 03203\n• Vagón: 1002, Asiento: 08A\n• Duración: 1h 30min\n• Tarifa: Semi-flexible SUPERPRECIO\n• Condiciones: Admite cambios / Cancelación gratis 2h\n\nRECORDATORIOS:\n• Llegar a la estación 30 minutos antes\n• Llevar billete (App/Email)\n• Verificar andén en pantallas
+DESCRIPTION:⚠️ REUBICACIÓN POR OBRAS ADIF\n\nEl tren original (AVE 3203) ha sido cancelado.\n---------------------------\nNUEVO HORARIO:\n• Salida: 19:34 (Casi 1h antes)\n• Llegada: 21:03\n• Tren: AVE 3309\n---------------------------\nASIENTO: Pendiente de confirmación por SMS\n\nPARADAS:\nMadrid > Guadalajara > Calatayud > Zaragoza
 STATUS:CONFIRMED
-TRANSP:OPAQUE
 BEGIN:VALARM
+TRIGGER:-PT2H
+DESCRIPTION:⚠️ El tren sale a las 19:34 (Horario modificado)
 ACTION:DISPLAY
-DESCRIPTION:Tren RENFE Madrid → Zaragoza en 1 hora
-TRIGGER:-PT1H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Tren RENFE Madrid → Zaragoza en 30 minutos
-TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
-
-BEGIN:VEVENT
-UID:preparacion-viaje-febrero-20260204@calendar
-DTSTART:20260204T190000Z
-DTEND:20260204T200000Z
-SUMMARY:Preparar viaje a Zaragoza (Jueves 05)
-DESCRIPTION:RECORDATORIO DE PREPARACIÓN:\n\n• Verificar billetes electrónicos (TrainPal/Email)\n• Preparar equipaje\n• Consultar estado del tren (AVE 03203)\n• Planificar ruta a Atocha\n• Salida mañana: 20:27
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Preparar viaje a Zaragoza mañana
-TRIGGER:PT0S
-END:VALARM
-END:VEVENT
-
 END:VCALENDAR
