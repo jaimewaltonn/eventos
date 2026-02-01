@@ -33,16 +33,24 @@
 
   <script>
     // URL de tu archivo ICS en GitHub
-    const icsUrl = "https://raw.githubusercontent.com/jaimewaltonn/eventos/main/cumple-jaime-somontes.ics";
+    //const icsUrl = "https://raw.githubusercontent.com/jaimewaltonn/eventos/main/cumple-jaime-somontes.ics";
 
-    const link = document.getElementById("calendarLink");
-    link.href = icsUrl;
+    //const link = document.getElementById("calendarLink");
+    //link.href = icsUrl;
 
     // En iOS, esto abrirá directamente el Calendario
-    link.addEventListener("click", () => {
-      window.location.href = icsUrl;
+    //link.addEventListener("click", () => {
+      //window.location.href = icsUrl;
+    //});
+    window.addEventListener('pageshow', function(event) {
+     // Si la página se carga desde la caché del botón "Atrás" (bfcache)
+     if (event.persisted) {
+      window.location.reload();
+      }
     });
+    
   </script>
 </body>
 </html>
+
 
