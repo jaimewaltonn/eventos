@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 
 BEGIN:VEVENT
-UID:tren-vuelta-zaragoza-20260406@calendar
-DTSTART:20260406T181700Z
-DTEND:20260406T194500Z
-SUMMARY:Tren iryo Zaragoza → Madrid
+UID:tren-vuelta-zaragoza-20260301@calendar
+DTSTART:20260301T193200Z
+DTEND:20260301T205900Z
+SUMMARY:Tren RENFE Zaragoza → Madrid
 LOCATION:Zaragoza-Delicias
-DESCRIPTION:DETALLES:\n\n• Salida: 20:17 (Hora Local)\n• Llegada: 21:45 (Hora Local)\n• Tren: iryo 06190\n• Vagón: 5, Asiento: 18A\n• Duración: 1h 28min\n• Tarifa: Semi-flexible / Inicial\n\nRECORDATORIOS:\n• Cancelación: No reembolsable / Admite cambios\n• Llevar DNI y billete electrónico\n• Estar en andén 30 min antes
+DESCRIPTION:DETALLES:\n\n• Salida: 20:32 (Hora Local)\n• Llegada: 21:59 (Hora Local)\n• Tren: RENFE AVE 03592\n• Vagón: 0002, Asiento: 04C\n• Duración: 1h 27min\n• Tarifa: Semi-flexible SUPERPRECIO\n\nRECORDATORIOS:\n• Cancelación gratis hasta 2h antes\n• Llevar DNI y billete electrónico\n• Estar en andén 30 min antes
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
