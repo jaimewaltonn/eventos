@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 
 BEGIN:VEVENT
-UID:visita-banco-espana-20260214@calendar
-DTSTART:20260214T114500Z
-DTEND:20260214T131500Z
-SUMMARY:Visita Banco de España (Puertas Abiertas)
-LOCATION:Calle de Los Madrazo 29\, Madrid
-DESCRIPTION:DETALLES:\n\n• Localizador: 90412845\n• Entradas: 4 personas (General)\n• Titular: Jesús\n• Tipo: Puertas abiertas en fin de semana\n\nRECORDATORIOS:\n• IMPRESCINDIBLE DNI o Pasaporte para entrar\n• Llegar 10 minutos antes (12:35)\n• Puntualidad estricta (no admiten retrasos)\n• Acceso por C/ Los Madrazo 29
+UID:tren-madrid-barcelona-20260417@calendar
+DTSTART:20260417T152700Z
+DTEND:20260417T184600Z
+SUMMARY:Tren RENFE Madrid → Barcelona
+LOCATION:Madrid-Puerta de Atocha
+DESCRIPTION:DETALLES:\n\n• Salida: 17:27 (Hora Local)\n• Llegada: 20:46 (Hora Local)\n• Tren: RENFE AVE 03373\n• Vagón: 1003, Asiento: 08B\n• Duración: 3h 19min\n• Tarifa: Semi-flexible SUPERPRECIO\n\nRECORDATORIOS:\n• Cancelación gratis hasta 2h antes\n• Llevar DNI y billete electrónico\n• Estar en andén 30 min antes
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
