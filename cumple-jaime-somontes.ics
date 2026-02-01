@@ -5,12 +5,12 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 
 BEGIN:VEVENT
-UID:tren-vuelta-bcn-madrid-20260419@calendar
-DTSTART:20260419T164000Z
-DTEND:20260419T195200Z
-SUMMARY:Tren RENFE Barcelona → Madrid
-LOCATION:Barcelona-Sants
-DESCRIPTION:DETALLES:\n\n• Salida: 18:40 (Hora Local)\n• Llegada: 21:52 (Hora Local)\n• Tren: RENFE AVE 03192\n• Vagón: 1003, Asiento: 14A\n• Duración: 3h 12min\n• Tarifa: Semi-flexible SUPERPRECIO\n\nRECORDATORIOS:\n• Cancelación gratis hasta 2h antes\n• Llevar DNI y billete electrónico\n• Estar en andén 30 min antes
+UID:tren-madrid-zaragoza-20260226@calendar
+DTSTART:20260226T192700Z
+DTEND:20260226T205700Z
+SUMMARY:Tren RENFE Madrid → Zaragoza
+LOCATION:Madrid-Puerta de Atocha
+DESCRIPTION:DETALLES:\n\n• Salida: 20:27 (Hora Local)\n• Llegada: 21:57 (Hora Local)\n• Tren: RENFE AVE 03203\n• Vagón: 1002, Asiento: 08A\n• Duración: 1h 30min\n• Tarifa: Semi-flexible SUPERPRECIO\n\nRECORDATORIOS:\n• Cancelación gratis hasta 2h antes\n• Llevar DNI y billete electrónico\n• Estar en andén 30 min antes
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
